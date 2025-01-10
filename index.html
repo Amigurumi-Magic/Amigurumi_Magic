@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Business Homepage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+			line-height: 1.6;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+            background-color: #333;
+            color: white;
+        }
+
+        .social-media {
+            flex: 1;
+			display: flex;
+            gap: 10px;
+        }
+		
+		.social-media a {
+            color: white;
+            text-decoration: none;
+            font-size: 14px;
+        }
+		 
+		.social-media a:hover {
+            text-decoration: underline;
+        }
+
+        .logo {
+            flex: 2;
+            text-align: center;
+        }
+
+        .search {
+            flex: 1;
+            text-align: right;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+            padding: 10px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            padding: 5px 10px;
+            transition: background-color 0.3s;
+        }
+
+        nav a:hover {
+            background-color: #555;
+        }
+
+		.main-content {
+            padding: 20px;
+            text-align: center;
+        }
+
+        .section {
+            margin: 20px 0;
+            padding: 20px;
+            border: 1px solid #ddd;
+            background: #fff;
+        }
+
+        .cta-button {
+            padding: 10px 20px;
+            background-color: #5cb85c;
+            color: white;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+            text-decoration: none;
+        }
+
+        .cta-button:hover {
+            background-color: #4cae4c;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 20px;
+        }
+
+        footer a {
+            color: white;
+            text-decoration: none;
+            margin: 0 5px;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+         <div class="social-media">
+            <a href="https://www.facebook.com/share/1V93f4n3E8/?mibextid=wwXIfr" target="_blank">
+			<i class="fa fa-facebook"></i> Facebook
+			</a>
+            <a href="https://www.twitter.com" target="_blank">Twitter</a>
+            <a href="https://www.instagram.com/ami9urumimagic?igsh=MTQ1ZWszbWF2M3Jzaw%3D%3D&utm_source=qr
+" target="_blank">Instagram</a>
+            <a href="https://www.linkedin.com" target="_blank">LinkedIn</a>
+        </div>
+        <div class="logo">
+            <h1>Welcome to Amigurumi Magic</h1>
+            <p>(Logo of My Business)</p>
+        </div>
+        <div class="search">
+            <input type="text" placeholder="Search" style="padding: 5px;">
+        </div>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About Us</a>
+        <a href="#">Shop</a>
+        <a href="#">Gallery</a>
+        <a href="#">Learning Centre</a>
+        <a href="#">Newsletter</a>
+        <a href="#">Contact Us</a>
+        <a href="#">Your Cart</a>
+    </nav>
+
+     <div class="main-content">
+        <div class="section" id="welcome">
+            <h2>Welcome to Amigurumi Magic!</h2>
+            <p>We’re so glad you’ve stopped by! At Amigurumi Magic, we bring to life the art of crochet with adorable, handmade amigurumi creations that are as unique as you are. Whether you’re looking for the perfect gift, a cozy addition to your collection, or something special for yourself, you’ll find magic in every stitch.
+			
+			Take your time to explore our collection and find the perfect amigurumi friend. We’re here to share the joy of crochet with you, one stitch at a time.
+
+			Thank you for visiting Amigurumi Magic – where creativity meets cuteness!
+			</p>
+        </div>
+
+        <div class="section" id="featured-products">
+            <h2>Featured Products</h2>
+            <p>Check out our best-selling items:</p>
+            <ul>
+                <li><a href="https://www.instagram.com/p/C_2SFdDTAHc/?igsh=MTNvazNpN3FqZWRlYg==" target="_blank">Baby Boots</a></li>
+                <li><a href="https://www.instagram.com/p/C_2SFdDTAHc/?igsh=MTNvazNpN3FqZWRlYg==" target="_blank">Mini Hamster</a></li>
+                <li><a href="https://www.instagram.com/p/C_2SFdDTAHc/?igsh=MTNvazNpN3FqZWRlYg==" target="_blank">Daisy Earrings</a></li>
+            </ul>
+            <a href="#" class="cta-button">Shop Now</a>
+        </div>
+
+        <div class="section" id="about-us">
+            <h2>About Us</h2>
+            <p>We are committed to delivering excellence in [your industry]. Our mission is to provide [unique value proposition].</p>
+        </div>
+
+        <div class="section" id="promotions">
+            <h2>Special Promotions</h2>
+            <p>Winter Sale: Up to 50% off selected items!</p>
+            <a href="#" class="cta-button">Shop the Sale</a>
+        </div>
+
+        <div class="section" id="testimonials">
+            <h2>Testimonials</h2>
+            <p>"The best products I’ve ever purchased!" – [Customer Name]</p>
+            <p>"Great service and fast delivery!" – [Customer Name]</p>
+        </div>
+
+        <div class="section" id="newsletter">
+            <h2>Stay Updated</h2>
+            <p>Sign up for our newsletter and get exclusive offers:</p>
+            <input type="email" placeholder="Enter your email" style="padding: 5px; width: 300px;">
+            <button class="cta-button">Subscribe</button>
+        </div>
+    </div>
+
+    <footer>
+        <p>Contact Us: info@mybusiness.com | Phone: (123) 456-7890</p>
+        <p>
+            Follow us:
+            <a href="https://www.facebook.com/share/1V93f4n3E8/?mibextid=wwXIfr" target="_blank">
+			<i class="fa fa-facebook"></i> Facebook
+			</a>
+            <a href="https://www.twitter.com" target="_blank">Twitter</a>
+            <a href="https://www.instagram.com/ami9urumimagic?igsh=MTQ1ZWszbWF2M3Jzaw%3D%3D&utm_source=qr
+" target="_blank">Instagram</a>
+            <a href="https://www.linkedin.com" target="_blank">LinkedIn</a>
+        </p>
+        <p>&copy; 2025 My Business. All rights reserved.</p>
+    </footer>
+</body>
+</html>
